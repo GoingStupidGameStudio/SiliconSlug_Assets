@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r9" pixel_mode="1">
+    <folder id="0" name="Body">
+        <file id="0" name="Body/mainChar_2_bodys_1.png" width="64" height="64" pivot_x="0.503448" pivot_y="0.348276"/>
+    </folder>
+    <folder id="1" name="FrontArm">
+        <file id="0" name="FrontArm/mainChar_2_FrontArm_1.png" width="64" height="64" pivot_x="0.460905" pivot_y="0.524691"/>
+        <file id="1" name="FrontArm/mainChar_2_FrontArm_2.png" width="64" height="64" pivot_x="0.459519" pivot_y="0.525164"/>
+        <file id="2" name="FrontArm/mainChar_2_FrontArm_3.png" width="64" height="64" pivot_x="0.459227" pivot_y="0.523605"/>
+        <file id="3" name="FrontArm/mainChar_2_FrontArm_4.png" width="64" height="64" pivot_x="0.458696" pivot_y="0.521739"/>
+        <file id="4" name="FrontArm/mainChar_2_FrontArm_5.png" width="64" height="64" pivot_x="0.459161" pivot_y="0.527594"/>
+        <file id="5" name="FrontArm/mainChar_2_FrontArm_6.png" width="64" height="64" pivot_x="0.444444" pivot_y="0.522013"/>
+        <file id="6" name="FrontArm/mainChar_2_FrontArm_7.png" width="64" height="64" pivot_x="0.444663" pivot_y="0.523716"/>
+        <file id="7" name="FrontArm/mainChar_2_FrontArm_8.png" width="64" height="64" pivot_x="0.446623" pivot_y="0.525054"/>
+        <file id="8" name="FrontArm/mainChar_2_FrontArm_9.png" width="64" height="64" pivot_x="0.446581" pivot_y="0.540598"/>
+        <file id="9" name="FrontArm/mainChar_2_FrontArm_10.png" width="64" height="64" pivot_x="0.444248" pivot_y="0.539823"/>
+        <file id="10" name="FrontArm/mainChar_2_FrontArm_11.png" width="64" height="64" pivot_x="0.445205" pivot_y="0.538813"/>
+        <file id="11" name="FrontArm/mainChar_2_FrontArm_12.png" width="64" height="64" pivot_x="0.446058" pivot_y="0.524896"/>
+        <file id="12" name="FrontArm/mainChar_2_FrontArm_13.png" width="64" height="64" pivot_x="0.444944" pivot_y="0.521349"/>
+        <file id="13" name="FrontArm/mainChar_2_FrontArm_14.png" width="64" height="64" pivot_x="0.447368" pivot_y="0.523923"/>
+        <file id="14" name="FrontArm/mainChar_2_FrontArm_15.png" width="64" height="64" pivot_x="0.462686" pivot_y="0.52452"/>
+        <file id="15" name="FrontArm/mainChar_2_FrontArm_16.png" width="64" height="64" pivot_x="0.459524" pivot_y="0.52381"/>
+        <file id="16" name="FrontArm/mainChar_2_FrontArm_17.png" width="64" height="64" pivot_x="0.461711" pivot_y="0.522523"/>
+        <file id="17" name="FrontArm/mainChar_2_FrontArm_18.png" width="64" height="64" pivot_x="0.461676" pivot_y="0.524064"/>
+        <file id="18" name="FrontArm/mainChar_2_FrontArm_19.png" width="64" height="64" pivot_x="0.46289" pivot_y="0.523438"/>
+        <file id="19" name="FrontArm/mainChar_2_FrontArm_20.png" width="64" height="64" pivot_x="0.476722" pivot_y="0.523278"/>
+        <file id="20" name="FrontArm/mainChar_2_FrontArm_21.png" width="64" height="64" pivot_x="0.478846" pivot_y="0.525"/>
+        <file id="21" name="FrontArm/mainChar_2_FrontArm_22.png" width="64" height="64" pivot_x="0.476767" pivot_y="0.523233"/>
+        <file id="22" name="FrontArm/mainChar_2_FrontArm_23.png" width="64" height="64" pivot_x="0.477134" pivot_y="0.539634"/>
+        <file id="23" name="FrontArm/mainChar_2_FrontArm_24.png" width="64" height="64" pivot_x="0.476654" pivot_y="0.540856"/>
+        <file id="24" name="FrontArm/mainChar_2_FrontArm_25.png" width="64" height="64" pivot_x="0.475096" pivot_y="0.54023"/>
+        <file id="25" name="FrontArm/mainChar_2_FrontArm_26.png" width="64" height="64" pivot_x="0.475269" pivot_y="0.524731"/>
+        <file id="26" name="FrontArm/mainChar_2_FrontArm_27.png" width="64" height="64" pivot_x="0.476191" pivot_y="0.523809"/>
+        <file id="27" name="FrontArm/mainChar_2_FrontArm_28.png" width="64" height="64" pivot_x="0.47579" pivot_y="0.522106"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="Idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="31">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="mainChar_2_bodys_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" y="6"/>
+                </key>
+                <key id="1" time="31" spin="0">
+                    <object folder="0" file="0" y="6"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="mainChar_2_FrontArm_1">
+                <key id="0" spin="0">
+                    <object folder="1" file="0" x="-3" y="18" angle="0" scale_x="1" scale_y="1"/>
+                </key>
+                <key id="1" time="31" spin="0">
+                    <object folder="1" file="1" x="-3" y="18" angle="0" scale_x="1" scale_y="1"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="MeleeAttack" length="1000" interval="100">
+            <mainline>
+                <key id="0"/>
+            </mainline>
+        </animation>
+    </entity>
+</spriter_data>
